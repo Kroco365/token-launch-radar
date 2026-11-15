@@ -1,8 +1,8 @@
 # Token Radar — pre-token protocols ranked by implied value
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun)
-[![make.fun](https://img.shields.io/badge/built%20for-make.fun-ff6fb5)](https://make.fun/bounty/token-radar-01)
-[![make.fun](https://img.shields.io/badge/competition-token--radar--01-gold)](https://make.fun/bounty/token-radar-01)
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/Kroco365/token-launch-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/Kroco365/token-launch-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 Entry for the [make.fun token-radar-01 bounty](https://make.fun/bounty/token-radar-01): build the best token launch radar.
 
@@ -20,8 +20,7 @@ category whose token already trades — computed from the snapshot at run time,
 never hardcoded. Then three adjustments from the protocol's own record: 7-day TVL
 growth, how long it has run with no token, and how many chains it runs on.
 
-```
-implied = TVL × category multiple × growth × maturity × chains
+```implied = TVL × category multiple × growth × maturity × chains
 ```
 
 - **Category multiple**: median mcap/TVL among live-token protocols in the same
@@ -32,7 +31,7 @@ implied = TVL × category multiple × growth × maturity × chains
 - **Chains**: +3% per extra chain, up to 4.
 
 No protocol name is ever special-cased. The board covers all 40 watchlist
-protocols plus every other rankable pre-token protocol below the floor (289 rows).
+protocols plus every other rankable pre-token protocol below the floor (198 rows).
 Live-token protocols are shown apart, at the market's own value.
 
 ## The dashboard
