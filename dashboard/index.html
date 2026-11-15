@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#board">Skip to the board</a>
+<header class="masthead">
+  <div class="radar-mark" aria-hidden="true"><span class="sweep"></span><span class="blip b1"></span><span class="blip b2"></span><span class="blip b3"></span></div>
+  <div class="masthead-text">
+    <h1>Token Radar</h1>
+    <p class="tagline">Every protocol that records no token, ranked by what its token would be worth — and how to farm it before it launches.</p>
+    <p class="meta" id="meta">Loading the snapshot…</p>
+  </div>
+  <div class="masthead-side">
+    <div class="side-stat"><span class="side-label">Top implied value</span><strong id="top-value">—</strong></div>
+    <div class="side-stat"><span class="side-label">Watchlist covered</span><strong id="watch-covered">—</strong></div>
+  </div>
+</header>
+<main id="board" tabindex="-1" aria-busy="true"></main>
+<footer class="foot">
+  <p>Implied values are this radar's own model, computed from the snapshot's figures alone — never a price, never a promise. A protocol that records no token may still have one its DefiLlama record does not carry. Data: DefiLlama public API, frozen at the snapshot date above. No network: every byte on this page ships with it.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
